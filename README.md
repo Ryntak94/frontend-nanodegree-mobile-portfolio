@@ -23,5 +23,5 @@
 ### views/js/main.js
 1. Moved switch from sizeSwitcher function into changePizzleSlices function.
 2. Removed conversion of units. Only uses percent now.
-3. removed unnecessary parts of for loop. newWidth is determined in switch. query selector set to a variable, it returns an array. for loop just itterates through array. queryselector only needs to run once.
-4. removed the document.body.scrollTop /1250 from inside the for loop as it is a constant and only needs to run once. set it to a variable which i used inside the for loop.
+3. Removed unnecessary parts of for loop. newWidth is determined in switch. query selector set to a variable, it returns an array. for loop just itterates through array. queryselector only needs to run once.
+4. Removed the document.body.scrollTop /1250 from inside the for loop as it is a constant and only needs to run once. set it to a variable which i used inside the for loop.
